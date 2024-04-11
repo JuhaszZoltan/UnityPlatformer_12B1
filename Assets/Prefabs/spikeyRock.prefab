@@ -204,8 +204,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 5
+  canDrop: 0
+  dropChance: 0
   healthBar: {fileID: 4879643631341619718}
   deathFX: {fileID: 4317021555082011949, guid: 8328dcf99145549439389f0c432ff870, type: 3}
+  lootDrop: {fileID: 0}
 --- !u!114 &8881639341838285902
 MonoBehaviour:
   m_ObjectHideFlags: 0

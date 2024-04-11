@@ -179,8 +179,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 5
+  canDrop: 0
+  dropChance: 0
   healthBar: {fileID: 7292409292956191833}
   deathFX: {fileID: 4317021555082011949, guid: 8328dcf99145549439389f0c432ff870, type: 3}
+  lootDrop: {fileID: 0}
 --- !u!114 &8470883354216218073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,11 +333,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4158583081318179987, guid: e680f1fbf10482b4b96acc9dda5a4da3, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4158583081318179987, guid: e680f1fbf10482b4b96acc9dda5a4da3, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8073189140820474107, guid: e680f1fbf10482b4b96acc9dda5a4da3, type: 3}
       propertyPath: m_Name
