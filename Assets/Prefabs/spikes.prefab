@@ -64,7 +64,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.6}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -75,7 +75,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.7, y: 1}
+  m_Size: {x: 3.7, y: 0.5}
   m_EdgeRadius: 0
 --- !u!1 &6919781359937574495
 GameObject:
@@ -90,9 +90,9 @@ GameObject:
   - component: {fileID: 805662883148934979}
   - component: {fileID: 8470883354216218073}
   - component: {fileID: 6076592635491839024}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: spikes
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 5
-  pushForce: 20
+  pushForce: 10
 --- !u!61 &6076592635491839024
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -230,7 +230,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.65}
+  m_Offset: {x: 0, y: -1.2}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -241,7 +241,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4, y: 2.7}
+  m_Size: {x: 4, y: 1.5}
   m_EdgeRadius: 0
 --- !u!1001 &8465659861037494536
 PrefabInstance:
@@ -251,6 +251,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 955960873166876801}
     m_Modifications:
+    - target: {fileID: 1777046896812426172, guid: e680f1fbf10482b4b96acc9dda5a4da3, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3832481696219851411, guid: e680f1fbf10482b4b96acc9dda5a4da3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -339,9 +343,21 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7852764804530086141, guid: e680f1fbf10482b4b96acc9dda5a4da3, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8073189140820474107, guid: e680f1fbf10482b4b96acc9dda5a4da3, type: 3}
       propertyPath: m_Name
       value: healthCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8073189140820474107, guid: e680f1fbf10482b4b96acc9dda5a4da3, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8266927651598850589, guid: e680f1fbf10482b4b96acc9dda5a4da3, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8266927651598850589, guid: e680f1fbf10482b4b96acc9dda5a4da3, type: 3}
       propertyPath: m_IsActive

@@ -5,13 +5,19 @@ public class EnemyDamage : MonoBehaviour
     [SerializeField] private float damage = 2f;
     [SerializeField] private float pushForce = 20f;
 
-    private void OnTriggerStay2D(Collider2D player)
+    private void OnTriggerStay2D(Collider2D other)
     {
-        if (player.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-            PlayerHealth playerHealth = player.gameObject.GetComponent<PlayerHealth>();
+            PlayerHealth playerHealth = other.gameObject.GetComponent<PlayerHealth>();
             playerHealth.TakeDamage(damage);
-            PushBack(player.transform);
+            PushBack(other.transform);
+        }
+
+        if (other.CompareTag("Enemy"))
+        {
+            EnemyHealth enemyHealth = other.gameObject.GetComponent<EnemyHealth>();
+            enemyHealth.TakeDamage(10000);
         }
     }
 

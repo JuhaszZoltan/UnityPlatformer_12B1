@@ -222,7 +222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 5
-  pushForce: 20
+  pushForce: 10
 --- !u!1001 &6050653515017631575
 PrefabInstance:
   m_ObjectHideFlags: 0

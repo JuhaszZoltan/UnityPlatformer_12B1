@@ -1983,6 +1983,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HEDGEBOAR
       objectReference: {fileID: 0}
+    - target: {fileID: 4185975966736043794, guid: 4dff2f417c40aa5458206965d124d4c0, type: 3}
+      propertyPath: pushForce
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2059,7 +2063,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2103844974339113201, guid: 0a3eed3e98146bc4b8537b6f917ff361, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -16.098955
+      value: -16.48
       objectReference: {fileID: 0}
     - target: {fileID: 2103844974339113201, guid: 0a3eed3e98146bc4b8537b6f917ff361, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2116,7 +2120,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 955960873166876801, guid: d7acc45a1b148814caccc4a3cd98e759, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.32
+      value: -16.98
       objectReference: {fileID: 0}
     - target: {fileID: 955960873166876801, guid: d7acc45a1b148814caccc4a3cd98e759, type: 3}
       propertyPath: m_LocalPosition.z
